@@ -1,6 +1,6 @@
 {
   "name": "@minions-bundles-content/cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CLI for minions-bundles-content — Content pipeline bundle — drafts, publications, channels, campaigns",
   "license": "MIT",
   "repository": {
@@ -8,7 +8,12 @@
     "url": "https://github.com/mxn2020/minions-bundles-content"
   },
   "homepage": "https://docs.minions.wtf",
-  "keywords": ["content","bundle","ai","minions"],
+  "keywords": [
+    "content",
+    "bundle",
+    "ai",
+    "minions"
+  ],
   "author": "Mehdi Nabhani <mehdi@the-mehdi.com> (https://the-mehdi.com)",
   "type": "module",
   "bin": {
