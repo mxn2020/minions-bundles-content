@@ -20,7 +20,7 @@ function App() {
                 <section className="features">
                     <div className="feature-card">
                         <h3>TypeScript SDK</h3>
-                        <code>npm install @mxn2020/minions-bundles-content-sdk</code>
+                        <code>npm install @minions-bundles-content/sdk</code>
                     </div>
                     <div className="feature-card">
                         <h3>Python SDK</h3>
@@ -28,7 +28,7 @@ function App() {
                     </div>
                     <div className="feature-card">
                         <h3>CLI Tool</h3>
-                        <code>npm install -g @mxn2020/minions-bundles-content-cli</code>
+                        <code>npm install -g @minions-bundles-content/cli</code>
                     </div>
                 </section>
             </main>

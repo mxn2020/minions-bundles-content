@@ -6,7 +6,7 @@ description: "Get up and running with Minions Bundle: Content in minutes"
 ## TypeScript
 
 ```typescript
-import { createClient } from '@mxn2020/minions-bundles-content-sdk';
+import { createClient } from '@minions-bundles-content/sdk';
 
 const client = createClient();
 console.log('Version:', client.version);

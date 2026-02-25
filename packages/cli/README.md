@@ -1,11 +1,11 @@
-# @mxn2020/minions-bundles-content-cli
+# @minions-bundles-content/cli
 
 CLI for Minions Bundle: Content — Content pipeline bundle — drafts, publications, channels, campaigns
 
 ## Installation
 
 ```bash
-npm install -g @mxn2020/minions-bundles-content-cli
+npm install -g @minions-bundles-content/cli
 ```
 
 ## Usage
