@@ -11,7 +11,7 @@ Content pipeline bundle — drafts, publications, channels, campaigns
 
 This project is part of the [Minions ecosystem](https://github.com/mxn2020/minions) and provides:
 
-- **TypeScript SDK** (`@mxn2020/minions-bundles-content-core`) — Core library for Node.js
+- **TypeScript SDK** (`@mxn2020/minions-bundles-content-sdk`) — Core library for Node.js
 - **Python SDK** (`minions-bundles-content`) — Python bindings
 - **CLI Tool** (`@mxn2020/minions-bundles-content-cli`) — Command-line interface
 - **Web App** — Interactive playground at [app.minions.wtf](https://app.minions.wtf)

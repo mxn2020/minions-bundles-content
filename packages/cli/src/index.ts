@@ -18,7 +18,7 @@ import {
 } from 'minions-sdk';
 import type { Minion, StorageFilter } from 'minions-sdk';
 import { JsonFileStorageAdapter } from 'minions-sdk/node';
-import { bundleTypes as customTypes } from '@mxn2020/minions-bundles-content-core';
+import { bundleTypes as customTypes } from '@mxn2020/minions-bundles-content-sdk';
 
 const program = new Command();
 const STORE_DIR = process.env.MINIONS_STORE || '.minions';
@@ -61,7 +61,7 @@ program
         console.log(chalk.bold('Minions Bundle: Content'));
         console.log(chalk.dim('Content pipeline bundle — drafts, publications, channels, campaigns'));
         console.log('');
-        console.log(`  SDK:    ${chalk.cyan('@mxn2020/minions-bundles-content-core')}`);
+        console.log(`  SDK:    ${chalk.cyan('@mxn2020/minions-bundles-content-sdk')}`);
         console.log(`  CLI:    ${chalk.cyan('@mxn2020/minions-bundles-content-cli')}`);
         console.log(`  Python: ${chalk.cyan('minions-bundles-content')}`);
         console.log(`  Store:  ${chalk.cyan(STORE_DIR)}`);

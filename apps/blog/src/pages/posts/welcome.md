@@ -10,7 +10,7 @@ We're excited to introduce **Minions Bundle: Content** — Content pipeline bund
 
 ## What's Included
 
-- **TypeScript SDK**: `npm install @mxn2020/minions-bundles-content-core`
+- **TypeScript SDK**: `npm install @mxn2020/minions-bundles-content-sdk`
 - **Python SDK**: `pip install minions-bundles-content`
 - **CLI**: `npm install -g @mxn2020/minions-bundles-content-cli`
 

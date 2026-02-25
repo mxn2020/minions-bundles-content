@@ -6,7 +6,7 @@ description: "Install Minions Bundle: Content packages"
 ## TypeScript / Node.js
 
 ```bash
-npm install @mxn2020/minions-bundles-content-core minions-sdk
+npm install @mxn2020/minions-bundles-content-sdk minions-sdk
 ```
 
 ## Python

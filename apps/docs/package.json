@@ -1,5 +1,5 @@
 {
-    "name": "@mxn2020/minions-bundles-content-docs",
+    "name": "minions-bundles-content-docs",
     "version": "0.1.0",
     "private": true,
     "type": "module",

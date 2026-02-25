@@ -11,12 +11,12 @@
         "apps/*"
     ],
     "scripts": {
-        "build": "pnpm --filter @mxn2020/minions-bundles-content-core run build && pnpm --filter @mxn2020/minions-bundles-content-cli run build && pnpm --filter @mxn2020/minions-bundles-content-docs run build && pnpm --filter @mxn2020/minions-bundles-content-blog run build && pnpm --filter @mxn2020/minions-bundles-content-web run build",
-        "deploy:blog": "pnpm --filter @mxn2020/minions-bundles-content-blog run build && netlify deploy --dir apps/blog/dist --prod",
-        "deploy:docs": "pnpm --filter @mxn2020/minions-bundles-content-docs run build && netlify deploy --dir apps/docs/dist --prod",
-        "deploy:web": "pnpm --filter @mxn2020/minions-bundles-content-web run build && netlify deploy --dir apps/web/dist --prod",
-        "test": "pnpm --filter @mxn2020/minions-bundles-content-core run test",
-        "lint": "pnpm --filter @mxn2020/minions-bundles-content-core run build && pnpm --filter @mxn2020/minions-bundles-content-core run lint && pnpm --filter @mxn2020/minions-bundles-content-cli run lint",
+        "build": "pnpm --filter @mxn2020/minions-bundles-content-sdk run build && pnpm --filter @mxn2020/minions-bundles-content-cli run build && pnpm --filter minions-bundles-content-docs run build && pnpm --filter minions-bundles-content-blog run build && pnpm --filter minions-bundles-content-web run build",
+        "deploy:blog": "pnpm --filter minions-bundles-content-blog run build && netlify deploy --dir apps/blog/dist --prod",
+        "deploy:docs": "pnpm --filter minions-bundles-content-docs run build && netlify deploy --dir apps/docs/dist --prod",
+        "deploy:web": "pnpm --filter minions-bundles-content-web run build && netlify deploy --dir apps/web/dist --prod",
+        "test": "pnpm --filter @mxn2020/minions-bundles-content-sdk run test",
+        "lint": "pnpm --filter @mxn2020/minions-bundles-content-sdk run build && pnpm --filter @mxn2020/minions-bundles-content-sdk run lint && pnpm --filter @mxn2020/minions-bundles-content-cli run lint",
         "deploy": "pnpm run deploy:blog"
     },
     "engines": {

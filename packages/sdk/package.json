@@ -1,5 +1,5 @@
 {
-  "name": "@mxn2020/minions-bundles-content-core",
+  "name": "@mxn2020/minions-bundles-content-sdk",
   "version": "0.1.0",
   "description": "Content pipeline bundle — drafts, publications, channels, campaigns",
   "type": "module",
