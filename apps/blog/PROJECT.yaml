@@ -1,0 +1,8 @@
+name: minions-bundles-content-blog
+project_scope: child
+child_type: blog
+parent_project: minions-bundles-content-workspace
+description: Standard compliance definition for minions-bundles-content-blog
+priority: high
+deploy_url: null
+tags: null

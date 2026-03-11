@@ -1,0 +1,8 @@
+name: "@minions-bundles-content/cli"
+project_scope: child
+child_type: cli
+parent_project: minions-bundles-content-workspace
+description: "CLI for minions-bundles-content — Content pipeline bundle — drafts, publications, channels, campaigns"
+priority: high
+deploy_url: null
+tags: null
