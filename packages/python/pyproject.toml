@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "minions-bundles-content"
-version = "0.1.0"
+version = "0.1.1"
 description = "Content pipeline bundle — drafts, publications, channels, campaigns"
 readme = "README.md"
 license = { text = "MIT" }
