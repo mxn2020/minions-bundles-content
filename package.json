@@ -2,7 +2,7 @@
   "name": "minions-bundles-content-workspace",
   "private": true,
   "version": "0.1.1",
-  "description": "Content pipeline bundle \u2014 drafts, publications, channels, campaigns",
+  "description": "Content pipeline bundle — drafts, publications, channels, campaigns",
   "type": "module",
   "license": "MIT",
   "author": "Mehdi Nabhani <mehdi@the-mehdi.com> (https://the-mehdi.com)",
